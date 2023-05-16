@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"   xmlns:th="http://www.thymeleaf.org" th:replace="user/base::change(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<section>
+
+
+<div class="card mr-3 ml-4 ">
+
+<div class="card-body">
+<h1  class="text-center"> Update Farmer Info</h1>
+<div class="container-fluid mt-1">
+
+<div class="row">
+<div class="col-md-8 offset-md-2">
+
+<form action="#"
+ th:object="${contact}"
+ enctype="multipart/form-data"
+ method="post"
+ th:action="@{/user/process-update}"
+ class="mt-2"
+ >
+ 
+ 	<input th:value="${contact.id}" type="hidden" name="id" />
+ 
+<!--   FRIST NAME FIELDS -->
+
+         <div class="col-auto">
+      <label class="sr-only" for="inlineFormInputGroup">Username</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+          	<i class="fa fa-plus"></i>
+          </div>
+        </div>
+        <input th:value="${contact.name}" style="height: 30px" name="name" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+      </div>
+    </div>
+    
+<!--    namefield -->
+    <div class="col-auto mt-3">
+      <label class="sr-only" for="secondName">Username</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+          	<i class="fas fa-user-alt"></i>
+          </div>
+        </div>
+        <input th:value="${contact.secondName}"  style="height: 30px;" name="secondName" type="text" class="form-control" id="secondName" placeholder="Username">
+      </div>
+    </div> 
+    
+    
+    <!-- phone field -->
+    
+        <div class="col-auto mt-3">
+      <label class="sr-only" for="phone">Username</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+          	<i class="fas fa-phone"></i>
+          </div>
+        </div>
+        <input th:value="${contact.phone}" style="height: 30px;" name="phone" type="number" class="form-control" id="phone" placeholder="Enter Phone Number here">
+      </div>
+    </div> 
+    
+    
+    
+    <!-- email field -->
+        <div class="col-auto mt-3">
+      <label class="sr-only" for="email">Username</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+          	@
+          </div>
+        </div>
+        <input th:value="${contact.email}" style="height: 30px;" name="email" type="email" class="form-control" id="email" placeholder="enter email here">
+      </div>
+    </div> 
+    
+    
+    <!-- work fiekd -->
+        <div class="col-auto mt-3">
+      <label class="sr-only" for="work">Username</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+          	<i class="fas fa-briefcase"></i>
+          </div>
+        </div>
+        <input th:value="${contact.work}" style="height: 30px;" name="work" type="text" class="form-control" id="work" placeholder="Enter Work Here">
+      </div>
+    </div> 
+    
+    
+    <!-- description -->
+    
+    
+    <div class="form -group mt-3" >
+    
+    	<textarea th:text="${contact.description}" id="mytextarea" placeholder="enter your contact description" name="description" 
+    	  rows="14" class="form-control"></textarea>
+    </div>
+    
+    <!-- contact image -->
+    
+  <div class="container text-center mt-2">
+   	<img class="img-fluid my_profile_picture" style="height:200px; width:200px;" src="@{'/image/'+${contact.imageUrl}}" alt="" />
+  </div>
+    
+    <div class="custom-file mt-2">
+    	<input type="file" name="profile" />
+    </div>
+    
+   <div class="container mt-2 text-center">
+   <button class="btn btn-outline-primary">Save Contact</btutton>
+   </div>
+   </form>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+ <script>
+      tinymce.init({
+        selector: '#mytextarea'
+      });
+    </script>
+
+
+</section>
+</body>
+</html>

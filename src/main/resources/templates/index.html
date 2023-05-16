@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>ikibabi</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Jabo Bugingo Proper">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" th:href="@{/bootstrap.min.css}">
+  <!-- style css -->
+  <link rel="stylesheet" th:href="@{/css/styleindex.css}">
+  <!-- Responsive-->
+  <link rel="stylesheet" th:href="@{/css/responsiveindex.css}">
+  <!-- fevicon -->
+  <link rel="icon" href="../static/images/fevicon.png" type="image/gif" />
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="../static/css/bootstrap-datepicker.min.css">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+<body class="main-layout">
+<!-- loader  -->
+<div class="loader_bg">
+  <div class="loader"><img th:src="@{/image/loading.gif}" alt="#"/></div>
+</div>
+<!-- end loader -->
+<div class="full_bg">
+  <!-- header -->
+  <header class="header-area">
+    <div class="container-fluid">
+      <div class="row d_flex">
+        <div class=" col-md-2 col-sm-3">
+          <div class="logo">
+            <a href="index.html"> <img th:src="@{/image/ikibabi.png}"> </a>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-9">
+          <div class="navbar-area">
+            <nav class="site-navbar">
+              <ul>
+                <li><a class="active" href="#home">Ahabanza</a></li>
+                <li><a href="#about">Abo turibo</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#customers">Ubuhamya</a></li>
+                <li><a href="#news">Amakuru</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-2 padd_0 d_none">
+          <ul class="email text_align_right">
+            <li><a href="http://localhost:8080/signin">Konti yawe</a>
+            </li>
+            <!-- <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i> -->
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header inner -->
+  <!-- top -->
+  <div class="slider_main">
+    <!-- carousel code -->
+    <section class="home" id="home">
+      <img src="../static/image/teabackground.jpg" alt="responsive image" class="d-block img-fluid">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="willom">
+              <h1> Hinga Icyayi </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- end banner -->
+  <!-- about -->
+  <div class="about" id="about">
+    <div class="container-fluid">
+      <div class="row d_flex">
+        <div class="col-lg-6 col-md-12">
+          <div class="titlepage text_align_left">
+            <span>Abo turibo</span>
+            <h2>Sobanukirwa </h2>
+            <p> Ikibabi ni urubuga rukoresha ikoranabuhanga mugafasha aba hinzi b' icyayi kugurisha umusaruro wabo kandi ugahabwa agacuro nabatunganya icyayi kandi umuhinzi akabasha gukurikirana inyungu yavuye mu musaruro we. </p>
+            <a class="read_more" href="#">Soma byimbitse</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="row d_flex">
+            <div class="col-md-7">
+              <div class="about_img">
+                <figure><img src="../static/image/teabackground.jpg" alt="#"/>
+                </figure>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="about_img">
+                <figure><img src="../static/image/farmerform.jpg" alt="#"/>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about -->
+  <!-- services -->
+  <div class="services" id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage text_align_left">
+            <span>Ibyo dukora</span>
+            <h2>SERVICES DUTANGA</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="services_box_main">
+            <div  class="services_box text_align_left">
+              <figure><img src="../static/image/farmer.jpg" alt="#"/></figure>
+              <div class="veget">
+                <h3>Gukusanya<br>Umusaruro</h3>
+                <p>Twakira icyayi giturutse ku bahinzi batandukanye tugakusanya umusaruro tugendeye kubwiza bw' icyayi bejeje.</p>
+              </div>
+            </div>
+            <a class="read_more" href="#">Soma byimbitse</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="services_box_main">
+            <div  class="services_box text_align_left">
+              <figure><img src="../static/image/background.jpg" alt="#"/></figure>
+              <div class="veget">
+                <h3>Tuguhuza n'<br>Uruganda</h3>
+                <p>Duhuza abahinzi n' inganda zitunganya icyayi kugirango umusaruro wabo ubyare inyungu bakishyurwa hagendewe kucyayi bagemuye.</p>
+              </div>
+            </div>
+            <a class="read_more" href="#">Soma byimbitse</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="services_box_main">
+            <div  class="services_box text_align_left">
+              <figure><img src="../static/image/income.png" alt="#"/></figure>
+              <div class="veget">
+                <h3>Inyungu ku<br>Musaruro</h3>
+                <p> Duha umuhinzi uburyo bwo gukurikirana inyungu yavuye mu cyayi yejeje hifashishijwe ikoranabuhanga amafaranga akabarwa hagendewe kubiro yagemuye nigiciro kuri ku isoko. </p>
+              </div>
+            </div>
+            <a class="read_more" href="#">Soma byimbitse</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end services -->
+  <!-- customers -->
+  <div class="customers" id="customers">
+    <div class="clients_bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="titlepage text_align_left">
+              <span>Abahinzi Dukorana</span>
+              <h2>Ubuhamya</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start slider section -->
+    <div id="myCarousel" class="carousel slide clients_banner" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="carousel-caption relative">
+              <div class="row d_flex">
+                <div class="col-md-6">
+                  <div class="custom">
+                    <div class="d_flex">
+                      <i><img src="../static/image/customer1.jfif" alt="#"/></i>
+                      <div class="clint">
+                        <h4>Habimana</h4>
+                        <span>Umuhinzi</span>
+                      </div>
+                    </div>
+                    <p> ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa.  </p>
+                    <img src="../static/image/test.png" alt="#"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom">
+                    <div class="d_flex">
+                      <i><img src="../static/image/customer2.jfif" alt="#"/></i>
+                      <div class="clint">
+                        <h4>Kagabo</h4>
+                        <span>Umuhinzi</span>
+                      </div>
+                    </div>
+                    <p>Mumyaka 3 yambere ugitera ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa. </p>
+                    <img src="../static/image/test.png" alt="#"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption relative">
+              <div class="row d_flex">
+                <div class="col-md-6">
+                  <div class="custom">
+                    <div class="d_flex">
+                      <i><img src="../static/image/customer1.jfif" alt="#"/></i>
+                      <div class="clint">
+                        <h4>Habimana </h4>
+                        <span>Umuhinzi</span>
+                      </div>
+                    </div>
+                    <p>Mumyaka 3 yambere ugitera ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa. </p>
+                    <img src="../static/image/test.png" alt="#"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom">
+                    <div class="d_flex">
+                      <i><img src="../static/image/customer2.jfif" alt="#"/></i>
+                      <div class="clint">
+                        <h4>Kagabo </h4>
+                        <span>Umuhinzi</span>
+                      </div>
+                    </div>
+                    <p>Mumyaka 3 yambere ugitera ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa. </p>
+                    <img src="../static/image/test.png" alt="#"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption relative">
+              <div class="row d_flex">
+                <div class="col-md-6">
+                  <div class="custom">
+                    <div class="d_flex">
+                      <i><img src="../static/image/customer1.jfif" alt="#"/></i>
+                      <div class="clint">
+                        <h4>Habimana</h4>
+                        <span>Umuhinzi</span>
+                      </div>
+                    </div>
+                    <p>Mumyaka 3 yambere ugitera ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa. </p>
+                    <img src="../static/image/test.png" alt="#"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom">
+                    <div class="d_flex">
+                      <i><img src="../static/image/customer2.jfif" alt="#"/></i>
+                      <div class="clint">
+                        <h4>Kagabo</h4>
+                        <span>Umuhinzi</span>
+                      </div>
+                    </div>
+                    <p>Mumyaka 3 yambere ugitera ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa. </p>
+                    <img src="../static/image/test.png" alt="#"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- end customers -->
+  <!-- news -->
+  <div class="news" id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage text_align_left">
+            <span>Menya</span>
+            <h2>Amakuru</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" col-md-4">
+          <div class="latest">
+            <figure><img src="../static/image/leaves3.jpg" alt="#"/></figure>
+            <span>01<br>  Mata</span>
+            <div class="nostrud">
+              <h3> Ubwoko bw' icyayi</h3>
+              <p>Hari imbaga zitandukanye z'ubuvu buri mu gihugu cya none. Ibuvu bw'ubuvu burira mu buryo bw'umwihariko bw'Asiya, ariko hari naho hateganyijwe kubona ibuvu bwacu mu mirima y'imbuto muri 25 z'ibihugu. Ibuvu bwo mu mahoro cyane burahinduka mu buryo bw'umwihariko bwiza bwo mu bitugu by'ikibanza, n'ibiryo bigurishwa n'abantu kuva ku buryo bw'umwihariko. </p>
+              <a class="read_more" href="#">Soma byimbitse</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="latest box_desho">
+            <figure><img src="../static/image/umurima.jpg" alt="#"/></figure>
+            <span>15<br> MATA</span>
+            <div class="nostrud">
+              <h3>Biroroshye cyane</h3>
+              <p>Muguhinga icyayi bivugwako usabwa kukibabgarira mumyaka 3 yambere ugitera ibiti byacyo naho ubundi iyo ibiti bimazaze gukura neza birafatana amababi agatuma izuba ritagera kutwatsi ubusanzwe uba ugomba kubagara, iyo ibyo byatsu bibize izuba bibura ubushobozi bwo gukora ibibitunga hifashishijwe imirasire y' izuba ntibyongera kumera ugasigara usarura icyayi cyawe gusa. </p>
+              <a class="read_more" href="#">Soma byimbitse</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="latest">
+            <figure><img src="../static/image/gutunganya.jpg" alt="#"/></figure>
+            <span>29<br> MATA</span>
+            <div class="nostrud">
+              <h3>Inganda 3 shyashya</h3>
+              <p>Urugaga rwabikorera rwatangaje ko hafunguwe inganda 3 zigiye gufasha abahinzi gutunganya icyayi beza, ibi bubanye nyumayuko umusaruro w' icyayi mu Rwanda warumaze kuruta ubushobozi bwinganda dufite. Abahinzi bicyayi bishimiye ifungurwa ryizi nganda kuko bigiye gutuma babona amafaranga. </p>
+              <a class="read_more" href="#">Soma byimbitse</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end news -->
+  <!-- contact -->
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="titlepage text_align_center">
+            <span>Twandikire</span>
+            <h2>Tanga ikibazo cg igitekerezo</h2>
+          </div>
+        </div>
+        <div class="col-md-8 offset-md-2">
+          <form id="request" class="main_form">
+            <div class="row">
+              <div class="col-md-12 ">
+                <input class="form_control" placeholder="Amazina" type="type" name=" Name">
+              </div>
+              <div class="col-md-12">
+                <input class="form_control" placeholder="Telefone" type="type" name="Phone Number">
+              </div>
+
+              <div class="col-md-12">
+                <input class="textarea" placeholder="Ubutumwa bwanyu" type="type" name="message">
+              </div>
+              <div class="col-md-12">
+                <div class="group_btn">
+                  <button class="send_btn">Ohereza</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15950.07679966865!2d30.1430941!3d-1.9451934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39b5394a977ee4a1!2sAdventist%20University%20of%20Central%20Africa!5e0!3m2!1sen!2srw!4v1568830814427!5m2!1sen!2srw" width="600" height="430" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+    </div>
+  </div>
+  <!-- end contact -->
+  <!--  footer -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="hedingh3  text_align_left">
+              <h3>Newsletter</h3>
+              <form id="colof" class="form_subscri">
+                <input class="newsl" placeholder="Enter Email" type="text" name="Email">
+                <button class="subsci_btn"><img src="../static/image/new.png" alt="#"/></button>
+              </form>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hedingh3 text_align_left">
+              <h3> Aho bashakira</h3>
+              <ul class="menu_footer">
+                <li><a href="#home">Ahabanza</a></li>
+                <li><a href="#about">Aboturibo</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#customers">Ubuhamya</a></li>
+                <li><a href="#news">Amakuru</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hedingh3 text_align_left">
+              <h3>Amakuru</h3>
+              <ul class="recent">
+                <li><img src="../static/image/leaves3.jpg" alt="#"/> Amoko atandukanye y' icyayi </li>
+                <li><img src="../static/image/background1.jpg" alt="#"/>ea commodo consequat. Duis aute </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hedingh3  flot_right text_align_left">
+              <h3>ContacT</h3>
+              <ul class="top_infomation">
+                <li><i class="fa fa-phone" aria-hidden="true"></i>
+                  +250 781325720
+                </li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                  <a href="">jabopro01@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row d_flex">
+            <div class="col-md-8">
+              <p> Designed by Jabo Bugingo Proper © 2023 All Rights Reserved. </a></p>
+            </div>
+            <div class="col-md-4">
+              <ul class="social_icon ">
+                <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <!-- Javascript files-->
+  <script th:src="@{/js/jquery.min.js}"></script>
+  <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+  <script th:src="@{/js/jquery-3.0.0.min.js}"></script>
+  <script th:src="@{/js/owl.carousel.min.js}"></script>
+  <script th:src="@{/js/bootstrap-datepicker.min.js}"></script>
+  <script th:src="@{/js/custom.js}"></script>
+</body>
+</html>

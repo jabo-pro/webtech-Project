@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"   xmlns:th="http://www.thymeleaf.org" th:replace="user/base::change(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<section>
+
+<div class="container">
+
+	<div class="card my-5">
+		<div class="card-body">		
+		
+		<div class="container text-center mt-3">
+<!--		<img style="height: 200px; width: 200px;" src="" alt="my_profile_picture" th:src="@{'/image/contact_logo.png'}" />-->
+		
+		</div>
+		
+		<h1 class="text-center mt-3 text-secondary font-italic font-weight-light">
+		
+		Start recording tea farmeres...
+		
+		</h1>
+		
+		<div class="text-center">
+		<a th:href="@{/user/add_contact}" class="btn btn-primary mt-4 btn-block text-center text-uppercase"> Add New Farmer</a>
+		</div>
+		
+		</div>
+	</div>
+
+</div>
+<script>
+
+$(document).ready(()=>{
+	
+	$('.item').removeClass('active');
+	$('#home-link').addClass("active");
+
+	
+});
+</script>
+</section>
+</body>
+</html>
