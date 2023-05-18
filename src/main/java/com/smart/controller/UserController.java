@@ -71,7 +71,7 @@ public class UserController {
 
 		model.addAttribute("title", "Add contact");
 		model.addAttribute("contact", new Contact());
-		return "add_contact_form";
+		return "user/add_contact_form";
 	}
 
 	// procesing add contact form
@@ -120,7 +120,7 @@ public class UserController {
 			
 			//message sucees
 			
-			session.setAttribute("message", new Message("your contact is added !! add more","success"));
+			session.setAttribute("message", new Message("Farmer is added !! add more","success"));
 			
 			
 		}catch (Exception e) {
@@ -129,7 +129,7 @@ public class UserController {
 			
 			session.setAttribute("message", new Message("something went wrong","danger"));
 		}
-		return "add_contact_form";
+		return "user/add_contact_form";
 	}
 	
 	
@@ -151,7 +151,7 @@ public class UserController {
 		m.addAttribute("currentPage", page);
 		m.addAttribute("totalPages", contacts.getTotalPages());
 
-		return "show_contacts";
+		return "user/show_contacts";
 	}
 
 
@@ -195,7 +195,7 @@ public class UserController {
 		this.contactRepository.delete(contact);
 
 
-		session.setAttribute("message", new Message("contact deleted succesfuly", "success"));
+		session.setAttribute("message", new Message("farmer deleted succesfuly", "success"));
 
 		return "redirect:/user/show-contacts/0";
 	}
@@ -260,7 +260,7 @@ public class UserController {
 			contact.setUser(user);
 			this.contactRepository.save(contact);
 		
-			session.setAttribute("message", new Message("Your contact is updated", "success"));
+			session.setAttribute("message", new Message("Farmer is updated", "success"));
 		
 		}
 		catch (Exception e) {

@@ -45,7 +45,7 @@ public String sendOTP(@RequestParam("email") String email,
 		
 		int otp = random.nextInt(99999);
 		
-		String subject = "OTP form SCM";
+		String subject = "OTP form ikibabi";
 		String message="<h1> OTP="+otp+"<h1>";
 		String to= email;
 		
