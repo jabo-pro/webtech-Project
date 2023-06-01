@@ -5,20 +5,44 @@ Introduction:
 Welcome to the Ikibabi Web App! This documentation will guide you on how to use the application effectively. Ikibabi Web App is designed to help tea manufacturers record farmers and employees, track tea leaf deliveries, and calculate their value based on the unit price at the time of delivery. This user guide will cover the login process, navigation, and available features and functionality.
 
 Home page: use the navigation bar or menu on mobile to navigate our website.
-           
-![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/06d8ec06-2fbd-4d53-83a6-65eff8d65902)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/eb5f89e7-d66e-48af-9639-38e5d2563c20)
-![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/f0813c97-8c0c-40b6-818d-36141c8f20ef)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/72c5f7a3-1dd9-4fc8-9535-3ca24075b771)
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/9d9f765a-14b5-4511-ae11-bf14ad691502)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/072e5c58-354b-4bd9-9ddc-38c20b408482)
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/67609c25-2721-405b-a83b-a1cbb348ca9e)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/6db008f3-6a4b-4e1f-9d2c-a08211811e10)
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/1be49094-b9dd-491b-9547-bb9206891c8d)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/13828687-f16c-4f27-82cf-7a4a2edf1ff6)		
 
 Login:
 To access Ikibabi Web App, you need to log in using your credentials. Please follow the steps below:
 Open your web browser and navigate to the application's login page.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/2be3c2d5-5800-4930-aa53-074585115535)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/19f6227a-374f-4359-8422-0cd3eab9ccf7)
 
-![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/27e9efb7-a616-4d37-8a43-55c3f3acd384) ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/2308c505-5721-4bf7-bdbd-4b2ebb782415)
-
--> Enter your registered email address and password. Use “jabopro01@gmail.com”  password ”12345”
--> Click the "Login" button to log in.
+Enter your registered email address and password. Use “jabopro01@gmail.com”  password ”12345”
+Click the "Login" button to log in.
 Note: If you do not have an account, go to register to create one.
-![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/080e7483-9a9b-48d2-b6dd-3a896ec892eb)
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/0f008a9a-8453-43ad-9065-649be05aa9c2)
+ 
+
+Navigation:
+Once you have successfully logged in, you will be directed to the application's dashboard. The dashboard provides an overview of your account and quick access to the main features. Here's a breakdown of the navigation elements:
+
+Dashboard: This is the landing page after logging in. It displays relevant information and provides quick access to other sections.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/47c7df2c-3eea-4e0c-ab37-98195cca5de3)
+
+Features and Functionality:
+Ikibabi Web App provides the following features and functionality:
+
+Employee Registration and login: Employees can create an account and login.
+User Profile: Once logged in a user can view their profile.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/f6b807c1-ad91-471e-9f9d-fce173a61242)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/ebb5cfd2-a4a4-4784-81cb-429708cf16f0)
+
+Change Password: Users can change their password while logged.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/47796240-6f3d-462e-aa17-4158834387a0)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/d609b9ca-61a7-4658-b74c-d676f3fe398f)
+
+Register Farmers: Registered employees can add new farmer accounts with their details such as name, contact information, photo and other relevant information.
+ 
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/74a6ce2a-466d-4eac-ada8-d37bc4067288)
+
+View Records: After recording farmers you can see them by clicking on view farmers form the menu.
+ ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/7537de6c-7ff6-43c3-ac5b-cf0a4f2c055c)
+
 
 
 The purpose of the project is to develop a Spring Boot application that facilitates tea manufacturers in recording farmers and employees' information, specifically allowing registered employees to add farmer accounts and record the kilograms (KGs) of tea leaves brought in by each farmer. Additionally, the application will enable farmers to log in and view the quantity of tea leaves they have contributed and the corresponding value based on the unit price at the time of delivery.
