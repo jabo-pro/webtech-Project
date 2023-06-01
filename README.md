@@ -43,7 +43,7 @@ Register Farmers: Registered employees can add new farmer accounts with their de
  
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/74a6ce2a-466d-4eac-ada8-d37bc4067288)
 
-View Records: After recording farmers you can see them by clicking on view farmers form the menu.
+View Records: After recording farmers you can see them by clicking on view farmers form the menu and search them by name or id.
  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/7537de6c-7ff6-43c3-ac5b-cf0a4f2c055c)
  
 Tea Leaf Recording: Employees can record the KGs of tea leaves brought in by farmers. Select the farmer account and enter the quantity of tea leaves delivered.
