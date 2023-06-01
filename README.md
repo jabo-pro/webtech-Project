@@ -34,6 +34,7 @@ Ikibabi Web App provides the following features and functionality:
 
 Employee Registration and login: Employees can create an account and login.
 User Profile: Once logged in a user can view their profile.
+
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/f6b807c1-ad91-471e-9f9d-fce173a61242)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/ebb5cfd2-a4a4-4784-81cb-429708cf16f0)
 
 Change Password: Users can change their password while logged.
