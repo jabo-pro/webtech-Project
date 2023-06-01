@@ -4,7 +4,7 @@ User Documentation: icyayiOnline web Application
 Introduction:
 Welcome to the Ikibabi Web App! This documentation will guide you on how to use the application effectively. Ikibabi Web App is designed to help tea manufacturers record farmers and employees, track tea leaf deliveries, and calculate their value based on the unit price at the time of delivery. This user guide will cover the login process, navigation, and available features and functionality.
 
-URL:ikibabi-webapp-production.up.railway.app
+url: https://ikibabi-webapp-production.up.railway.app/
 
 Home page: use the navigation bar or menu on mobile to navigate our website.
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/9d9f765a-14b5-4511-ae11-bf14ad691502)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/072e5c58-354b-4bd9-9ddc-38c20b408482)
@@ -51,7 +51,7 @@ Farmer Profile: Farmers can log in to the application using their credentials an
 Unit Price Management: Admin users can manage the unit price of tea leaves. They can set and update the unit price, which is used to calculate the value of tea leaves delivered.
 
 
-
+About the project:
 
 The purpose of the project is to develop a Spring Boot application that facilitates tea manufacturers in recording farmers and employees' information, specifically allowing registered employees to add farmer accounts and record the kilograms (KGs) of tea leaves brought in by each farmer. Additionally, the application will enable farmers to log in and view the quantity of tea leaves they have contributed and the corresponding value based on the unit price at the time of delivery.
 
