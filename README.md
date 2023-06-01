@@ -43,6 +43,11 @@ Register Farmers: Registered employees can add new farmer accounts with their de
 
 View Records: After recording farmers you can see them by clicking on view farmers form the menu.
  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/7537de6c-7ff6-43c3-ac5b-cf0a4f2c055c)
+ 
+Tea Leaf Recording: Employees can record the KGs of tea leaves brought in by farmers. Select the farmer account and enter the quantity of tea leaves delivered.
+Farmer Profile: Farmers can log in to the application using their credentials and view the quantity of tea leaves they have delivered and their corresponding value.
+Unit Price Management: Admin users can manage the unit price of tea leaves. They can set and update the unit price, which is used to calculate the value of tea leaves delivered.
+
 
 
 
