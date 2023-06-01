@@ -12,10 +12,11 @@ Home page: use the navigation bar or menu on mobile to navigate our website.
 Login:
 To access Ikibabi Web App, you need to log in using your credentials. Please follow the steps below:
 Open your web browser and navigate to the application's login page.
-![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/27e9efb7-a616-4d37-8a43-55c3f3acd384)![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/2308c505-5721-4bf7-bdbd-4b2ebb782415)
 
-Enter your registered email address and password. Use “jabopro01@gmail.com”  password ”12345”
-Click the "Login" button to log in.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/27e9efb7-a616-4d37-8a43-55c3f3acd384) ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/2308c505-5721-4bf7-bdbd-4b2ebb782415)
+
+-> Enter your registered email address and password. Use “jabopro01@gmail.com”  password ”12345”
+-> Click the "Login" button to log in.
 Note: If you do not have an account, go to register to create one.
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/080e7483-9a9b-48d2-b6dd-3a896ec892eb)
 
