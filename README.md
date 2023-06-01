@@ -7,11 +7,12 @@ Welcome to the Ikibabi Web App! This documentation will guide you on how to use 
 Home page: use the navigation bar or menu on mobile to navigate our website.
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/9d9f765a-14b5-4511-ae11-bf14ad691502)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/072e5c58-354b-4bd9-9ddc-38c20b408482)
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/67609c25-2721-405b-a83b-a1cbb348ca9e)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/6db008f3-6a4b-4e1f-9d2c-a08211811e10)
-![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/1be49094-b9dd-491b-9547-bb9206891c8d)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/13828687-f16c-4f27-82cf-7a4a2edf1ff6)		
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/13828687-f16c-4f27-82cf-7a4a2edf1ff6)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/1be49094-b9dd-491b-9547-bb9206891c8d)		
 
 Login:
 To access Ikibabi Web App, you need to log in using your credentials. Please follow the steps below:
 Open your web browser and navigate to the application's login page.
+
 ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/2be3c2d5-5800-4930-aa53-074585115535)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/19f6227a-374f-4359-8422-0cd3eab9ccf7)
 
 Enter your registered email address and password. Use “jabopro01@gmail.com”  password ”12345”
