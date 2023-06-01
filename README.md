@@ -1,3 +1,25 @@
+
+User Documentation: icyayiOnline web Application
+
+Introduction:
+Welcome to the Ikibabi Web App! This documentation will guide you on how to use the application effectively. Ikibabi Web App is designed to help tea manufacturers record farmers and employees, track tea leaf deliveries, and calculate their value based on the unit price at the time of delivery. This user guide will cover the login process, navigation, and available features and functionality.
+
+Home page: use the navigation bar or menu on mobile to navigate our website.
+           
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/06d8ec06-2fbd-4d53-83a6-65eff8d65902)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/eb5f89e7-d66e-48af-9639-38e5d2563c20)
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/f0813c97-8c0c-40b6-818d-36141c8f20ef)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/72c5f7a3-1dd9-4fc8-9535-3ca24075b771)
+
+Login:
+To access Ikibabi Web App, you need to log in using your credentials. Please follow the steps below:
+Open your web browser and navigate to the application's login page.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/27e9efb7-a616-4d37-8a43-55c3f3acd384)  ![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/2308c505-5721-4bf7-bdbd-4b2ebb782415)
+
+Enter your registered email address and password. Use “jabopro01@gmail.com”  password ”12345”
+Click the "Login" button to log in.
+Note: If you do not have an account, go to register to create one.
+![image](https://github.com/jabo-pro/webtech-Project/assets/104870676/080e7483-9a9b-48d2-b6dd-3a896ec892eb)
+
+
 The purpose of the project is to develop a Spring Boot application that facilitates tea manufacturers in recording farmers and employees' information, specifically allowing registered employees to add farmer accounts and record the kilograms (KGs) of tea leaves brought in by each farmer. Additionally, the application will enable farmers to log in and view the quantity of tea leaves they have contributed and the corresponding value based on the unit price at the time of delivery.
 
 Expected Outcomes:
